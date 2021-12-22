@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3dd3fdb1bef14d7a913287a35e1e0efc" Name="Diagram1">
+        <EntityTypeShape EntityType="autoinspecModel.Auto" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="autoinspecModel.Category" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="autoinspecModel.Drivers" Width="1.5" PointX="0.75" PointY="7.625" />
+        <EntityTypeShape EntityType="autoinspecModel.EngineType" Width="1.5" PointX="0.75" PointY="1.625" />
+        <EntityTypeShape EntityType="autoinspecModel.licence" Width="1.5" PointX="3" PointY="8.5" />
+        <EntityTypeShape EntityType="autoinspecModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" />
+        <AssociationConnector Association="autoinspecModel.FK_Auto_Drivers" />
+        <AssociationConnector Association="autoinspecModel.FK_Auto_EngineType" />
+        <AssociationConnector Association="autoinspecModel.FK_Auto_EngineType1" />
+        <AssociationConnector Association="autoinspecModel.FK_licence_Drivers" />
+        <AssociationConnector Association="autoinspecModel.CategoryLicence" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
